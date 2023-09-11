@@ -16,9 +16,10 @@ h1 {
 }
 
 .cabeçalho__menu-hamburguer {
+    margin-left: 20px;
     width: 24px;
     height: 24px;
-    background-image: url("../img/Menu.svg");
+    background-image: url("./img/Menu.png");
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
@@ -40,4 +41,11 @@ h1 {
 
 .container__imagem {
     padding: 1em;
+    margin-right: 20px;
+}
+
+.logoimg {
+    display: inline-block;
+    position:fixed;
+    margin-left: 6em;
 }
